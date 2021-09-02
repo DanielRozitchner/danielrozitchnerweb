@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página web del Guitarrista Daniel Rozitchner">
+  <meta name="keywords" content="jazz, música, clases de guitarra, music, guitarrista, artista contemporaneo">
+  <title>Clases</title>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="/index.html"><h1 class="navbar__logo--estilo">Daniel Rozitchner</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-md-end justify-content-lg-end" id="navbarNav">
+      <ul class="navbar-nav barraNavlinks">
+        <li class="nav-item active">
+          <a class=" btn-1 nav-link barranavLinks__link--estilo" href="/pages/bio.html">Bio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link barranavLinks__link--estilo" href="/pages/clases.html">Clases</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link barranavLinks__link--estilo" href="/pages/media.html">Media</a>
+        </li>    
+        <li class="nav-item active">
+          <a class="nav-link barranavLinks__link--estilo" href="/index.html#fechaslink">Fechas</a>
+        </li>   
+        <li class="nav-item active">
+          <a class="nav-link barranavLinks__link--estilo" href="/pages/galeria.html">Galería</a>
+        </li>    
+        <li class="nav-item active">
+          <a class="nav-link barranavLinks__link--estilo" href="/pages/clases.html#contactoLink">Contacto</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+      <section class="heroClases" id="heroLi">
+        <a class="heroClases__boton--img" href="#clasesLink"></a>        <!--El boton tendra un link hacia la seccion de la informacion de abajo-->
+        <h2 class="heroClases__headline--style">Clases</h2>
+      </section>
+<main class="clasesCointainer" id="clasesLink">
+<section class=mainClases>
+    <div class="guitarraClases">
+        <h3 class="subtitleStyle" id=clasesLink>Clases de Guitarra</h3>
+        <img class="fotosClases" src="/assets/img/11424443_10152801989781739_6840659402902917485_n.jpg" alt="foto de clases">
+    <p  class="smallTextStyle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quam libero autem, illum quos ipsum reiciendis, sit, labore repudiandae explicabo dolores id asperiores optio culpa consectetur praesentium tempora molestias fugiat?</p>    
+<button class="buttonForm">
+   <a  href="#contactoLink">Contacto</a>
+</button>
+</div>
+       <div class="audioClases">
+        <h3 class="subtitleStyle">Clases de Audioperceptiva y Lenguaje Musical</h3>   
+        <img class="fotosClases" src="/assets/img/sheet-music-2656005_1280.jpg" alt="partituras">
+    <p class="smallTextStyle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia inventore, qui fugiat, voluptates ipsa ut minima debitis nemo nam, ab possimus quae omnis unde est voluptatum? Ullam tenetur eum eius?</p>    
+    <button  class="buttonForm">
+        <a href="#contactoLink">Contacto</a>
+     </button>    
+</div>
+</section>
+<section class="formMap">
+   <div class="ubicacion">
+    <h3 class="subtitleStyle">Ubicación</h3>
+<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9716463590757!2d-58.438975784771074!3d-34.57958398046571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59398fa0f0d%3A0x641cc19f3b0b7cb0!2sDr.%20Emilio%20Ravignani%201975%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1628448353696!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<div class="formDiv">
+  <h3 class="subtitleStyle" id="contactoLink">Contacto</h3>
+  <form action="mailto:danirozitchner@gmail.com" method="POST" enctype="text/plain" target="_blank">
+    <div class="form">
+        <div class="grupo">
+            <input type="text" placeholder="Nombre" name="nombre" id="" required><span class="barra"></span>
+        </div>
+        <div class="grupo">
+            <input type="email" name="email" placeholder="Email" id="" required><span class="barra"></span>
+        </div>
+        <div class="grupo">
+            <input type="number" name="edad" placeholder="Edad" id="" required><span class="barra"></span>
+        </div>
+        <div class="grupo">
+            <textarea name="mensaje" placeholder="Mensaje" id="" rows="3" required></textarea><span class="barra"></span>
+        </div>
+        <button class="buttonForm" type="submit">Enviar</button>
+    </div>
+</form>
+</div>
+</section>
+</main>
+<footer class=" footer row col-xs-12 col-md-12 col-lg-12 flex-column align-items-center m-0">
+  <a class="footer__boton--img" href="#heroLi"></a>
+  <!--iconos redes sociales -->
+  <div class="footer__iconContainer d-flex justify-content-around">
+      <a href="https://api.whatsapp.com/send?phone=+541164675180" target="_blank"><img class="footer__iconContainer--size" src="/assets/icons/whatsapp.png" alt="icono whatsapp"></a>
+      <a href="https://open.spotify.com/artist/02crVGDt63hoAIelkiSkB9?si=IUlZaYfaSOSO2jMrTbaOmw&dl_branch=1" target="_blank"><img class="footer__iconContainer--size" src="/assets/icons/spotify.png" alt="icono spotify"></a>
+      <a href="https://www.instagram.com/danirozitch/?hl=es-la" target="_blank"><img class="footer__iconContainer--size" src="/assets/icons/instagram.png" alt="icono instagram"></a>
+  </div>
+  <h6 class="footer__copyright--style">Copyright 2021 Daniel Rozitchner</h6>
+</footer>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    
+ </body>
+</html> 

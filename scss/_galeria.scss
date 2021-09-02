@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+.heroGal { 
+    background: $gradienteHero, url(/assets/img/conciertttttttaga.jpg) no-repeat center;
+    @include heroStyle;
+
+    &__boton--img {
+            content: url('https://api.iconify.design/bi:chevron-double-down.svg?color=white');
+            vertical-align: -0.125em;
+            align-self: flex-end;
+            width: 3.5rem;
+            opacity: 90%;
+            border: none;
+        
+        &:hover {
+            opacity: 60%;
+         }    
+    }
+    
+        &__headline--style {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @include myFont2;
+        color:rgb(235, 235, 235);
+        font-size: 6rem;
+        }
+    }
+.carousel {
+    width: 75%;
+}
+.carouselDisplay {
+    background: $gradienteMain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

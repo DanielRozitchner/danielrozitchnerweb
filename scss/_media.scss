@@ -1,0 +1,55 @@
+@import "mixins";
+@import "variables";
+
+.heroMedia { 
+    background: $gradienteHero, url(/assets/img/conciirireioret.jpg) no-repeat center;
+    @include heroStyle;
+
+    &__boton--img {
+            content: url('https://api.iconify.design/bi:chevron-double-down.svg?color=white');
+            vertical-align: -0.125em;
+            align-self: flex-end;
+            width: 3.5rem;
+            opacity: 90%;
+            border: none;
+        
+        &:hover {
+            opacity: 60%;
+         }    
+    }
+    
+        &__headline--style {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @include myFont2;
+        color:rgb(235, 235, 235);
+        font-size: 6rem;
+        }
+    }
+
+    .vidClass, .musicaClass {
+        @include myFont2;
+        text-align: center;
+    }
+    .vidItem {
+        border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    }
+    .musicContainer {
+        width: 100%;
+    }
+    .bandcamp, .spotify {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    }
+
+    .backVid {
+        background-color: black;
+    }
+    .backMusica {
+        background: $gradienteMain;
+    }

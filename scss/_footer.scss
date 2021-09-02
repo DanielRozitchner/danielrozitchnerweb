@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+
+
+.footer { 
+    
+    background: $gradienteFooter;
+
+    &__iconContainer { 
+        width: 50%;
+        padding: 0.3rem;
+        &--size {
+            width: 2rem;
+        }
+    }
+    
+    &__boton--img {
+        content: url('https://api.iconify.design/bi:chevron-double-up.svg?color=white');
+        width: 3rem;
+        height: 3rem;
+        &:hover {
+            opacity: 60%;
+        }
+    }
+    &__copyright--style {
+        @include myFont2;
+        font-size: 1rem;
+    }
+}
+

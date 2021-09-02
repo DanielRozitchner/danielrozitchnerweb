@@ -1,0 +1,59 @@
+@import "mixins";
+@import "variables";
+
+
+.navbar {
+    background: $gradienteNav;
+    @include myFont;
+    padding-left: 20px;
+    
+
+    &__logo--estilo {
+        @include myFont;
+        color: $primaryColor;
+        font-size: 2.7rem;
+        padding-top: 5px;
+
+        &:hover {
+            color: $secondaryColor;
+        }
+    }
+}    
+.barranavLinks__link--estilo {
+ color: $primaryColor!important;
+ font-size: 1.5rem;
+ line-height: 70%;
+ 
+    &:hover {
+        color: $secondaryColor!important;
+    }
+ @media only screen and (min-width: 1024px) {
+ position: relative;
+ overflow: hidden;
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 8px;
+    right: 100%;
+    bottom: -2px;
+    background: linear-gradient(to right, #9ea0ac, #0077ff);
+    height: 6px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  
+  &:hover:before {
+    right: 8%;
+  }
+
+}
+}
+.navbar-brand {
+    padding: 0;
+}
+

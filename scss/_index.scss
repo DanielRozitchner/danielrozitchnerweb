@@ -1,0 +1,62 @@
+@import "variables";
+@import "mixins";
+
+
+.heroIndex { 
+    background: $gradienteHero, url(/assets/img/17.JPG) no-repeat center;
+    @include heroStyle;
+
+    &__boton--img {
+            content: url('https://api.iconify.design/bi:chevron-double-down.svg?color=white');
+            vertical-align: -0.125em;
+            align-self: flex-end;
+            width: 3.5rem;
+            opacity: 90%;
+            border: none;
+        
+        &:hover {
+            opacity: 60%;
+         }    
+        }
+       
+    }
+
+.mainContainer {
+    background: $gradienteMain;
+}
+.fechasContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    &__title--style {
+        @include myFont2;
+        font-size: 2.3rem;
+    
+    }
+    &__table--style {
+        @include myFont2;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+.prensaContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    &__title1--style {
+        @include myFont2;
+        font-size: 2.3rem;
+    }
+
+    &__title2--style {
+        @include myFont2;
+        font-size: 1.2rem;
+    }
+    
+    &__text--style {
+        @include myFont2;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+

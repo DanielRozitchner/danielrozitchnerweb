@@ -1,0 +1,15 @@
+@import "footer";
+@import "variables";
+@import "mixins";
+@import "index";
+@import "nav";
+@import "clases";
+@import "galeria";
+@import "media";
+@import "bio";
+body {
+    @include reset-list;
+}
+
+
+

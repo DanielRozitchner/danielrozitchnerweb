@@ -1,0 +1,571 @@
+.footer {
+  background: linear-gradient(rgba(53, 67, 107, 0.452) 0%, black 100%);
+}
+
+.footer__iconContainer {
+  width: 50%;
+  padding: 0.3rem;
+}
+
+.footer__iconContainer--size {
+  width: 2rem;
+}
+
+.footer__boton--img {
+  content: url("https://api.iconify.design/bi:chevron-double-up.svg?color=white");
+  width: 3rem;
+  height: 3rem;
+}
+
+.footer__boton--img:hover {
+  opacity: 60%;
+}
+
+.footer__copyright--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.heroIndex {
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/17.JPG) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.heroIndex__boton--img {
+  content: url("https://api.iconify.design/bi:chevron-double-down.svg?color=white");
+  vertical-align: -0.125em;
+  align-self: flex-end;
+  width: 3.5rem;
+  opacity: 90%;
+  border: none;
+}
+
+.heroIndex__boton--img:hover {
+  opacity: 60%;
+}
+
+.mainContainer {
+  background: linear-gradient(to top, rgba(53, 67, 107, 0.815) 0%, black 100%);
+}
+
+.fechasContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fechasContainer__title--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.fechasContainer__table--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.prensaContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.prensaContainer__title1--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.prensaContainer__title2--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.prensaContainer__text--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.navbar {
+  background: linear-gradient(rgba(53, 67, 107, 0.623) 0%, rgba(0, 0, 0, 0.5) 100%);
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #9ec0ff;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.navbar__logo--estilo {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #9ec0ff;
+  font-weight: bold;
+  color: #9ec0ff;
+  font-size: 2.7rem;
+  padding-top: 5px;
+}
+
+.navbar__logo--estilo:hover {
+  color: #b8ebf1;
+}
+
+.barranavLinks__link--estilo {
+  color: #9ec0ff !important;
+  font-size: 1.5rem;
+  line-height: 70%;
+}
+
+.barranavLinks__link--estilo:hover {
+  color: #b8ebf1 !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .barranavLinks__link--estilo {
+    position: relative;
+    overflow: hidden;
+  }
+  .barranavLinks__link--estilo:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 8px;
+    right: 100%;
+    bottom: -2px;
+    background: linear-gradient(to right, #9ea0ac, #0077ff);
+    height: 6px;
+    transition-property: right;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+  }
+  .barranavLinks__link--estilo:hover:before {
+    right: 8%;
+  }
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.heroClases {
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/conciertitotototo.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.heroClases__boton--img {
+  content: url("https://api.iconify.design/bi:chevron-double-down.svg?color=white");
+  vertical-align: -0.125em;
+  align-self: flex-end;
+  width: 3.5rem;
+  opacity: 90%;
+  border: none;
+}
+
+.heroClases__boton--img:hover {
+  opacity: 60%;
+}
+
+.heroClases__headline--style {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  color: #ebebeb;
+  font-size: 6rem;
+}
+
+.mainClases {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.guitarraClases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  box-shadow: 0 0 20px 5px var(--whiteBlue) inset, 0px 0px 0px 0px rgba(190, 200, 228, 0.192) inset;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.audioClases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  box-shadow: 0 0 20px 5px var(--whiteBlue) inset, 0px 0px 0px 0px rgba(190, 200, 228, 0.192) inset;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.fotosClases {
+  width: 45%;
+}
+
+.formMap {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to top, rgba(53, 67, 107, 0.815) 0%, black 100%);
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+form {
+  background: #ebebeb;
+  width: 80%;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.form {
+  width: 100%;
+}
+
+.grupo {
+  margin: 20px;
+}
+
+input, textarea {
+  background: none;
+  color: #000000;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input:focus ~ .barra::before, textarea:focus ~ .barra::before {
+  width: 100%;
+}
+
+.barra {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.barra::before {
+  content: '';
+  height: 3px;
+  width: 0%;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(to right, #9ea0ac, #0077ff);
+  transition: 0.8s ease all;
+  left: 0%;
+}
+
+.buttonForm {
+  background: linear-gradient(to right, #6A82FB, #0e0d0d);
+  display: block;
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.ubicacion {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mapa {
+  height: 100%;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.subtitleStyle {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+}
+
+.smallTextStyle {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heroGal {
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/conciertttttttaga.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.heroGal__boton--img {
+  content: url("https://api.iconify.design/bi:chevron-double-down.svg?color=white");
+  vertical-align: -0.125em;
+  align-self: flex-end;
+  width: 3.5rem;
+  opacity: 90%;
+  border: none;
+}
+
+.heroGal__boton--img:hover {
+  opacity: 60%;
+}
+
+.heroGal__headline--style {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  color: #ebebeb;
+  font-size: 6rem;
+}
+
+.carousel {
+  width: 75%;
+}
+
+.carouselDisplay {
+  background: linear-gradient(to top, rgba(53, 67, 107, 0.815) 0%, black 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroMedia {
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/conciirireioret.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.heroMedia__boton--img {
+  content: url("https://api.iconify.design/bi:chevron-double-down.svg?color=white");
+  vertical-align: -0.125em;
+  align-self: flex-end;
+  width: 3.5rem;
+  opacity: 90%;
+  border: none;
+}
+
+.heroMedia__boton--img:hover {
+  opacity: 60%;
+}
+
+.heroMedia__headline--style {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  color: #ebebeb;
+  font-size: 6rem;
+}
+
+.vidClass, .musicaClass {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.vidItem {
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.musicContainer {
+  width: 100%;
+}
+
+.bandcamp, .spotify {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.backVid {
+  background-color: black;
+}
+
+.backMusica {
+  background: linear-gradient(to top, rgba(53, 67, 107, 0.815) 0%, black 100%);
+}
+
+.heroBio {
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/1.JPG) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.heroBio__boton--img {
+  content: url("https://api.iconify.design/bi:chevron-double-down.svg?color=white");
+  vertical-align: -0.125em;
+  align-self: flex-end;
+  width: 3.5rem;
+  opacity: 90%;
+  border: none;
+}
+
+.heroBio__boton--img:hover {
+  opacity: 60%;
+}
+
+.heroBio__headline--style {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  color: #ebebeb;
+  font-size: 6rem;
+}
+
+.mainBio {
+  background: linear-gradient(to top, rgba(53, 67, 107, 0.815) 0%, black 100%);
+}
+
+.mainBio__title--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.mainBio__text--style {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.desafioComp {
+  background-color: purple;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  width: 50%;
+}
+
+.desafioElse {
+  background-color: green;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  width: 20%;
+}
+
+.forfor-1 {
+  font-size: 2em;
+}
+
+.forfor-2 {
+  font-size: 4em;
+}
+
+.forfor-3 {
+  font-size: 6em;
+}
+
+.forfor-4 {
+  font-size: 8em;
+}
+
+.forfor-1, .forfor-2, .forfor-3, .forfor-4 {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body a, body a:link, body a:visited {
+  text-decoration: none;
+  color: #b8ebf1;
+}
+
+body a:hover {
+  color: #9ec0ff;
+}
+/*# sourceMappingURL=style.css.map */
