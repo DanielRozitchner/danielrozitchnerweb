@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins";
 .heroGal { 
-    background: $gradienteHero, url(/assets/img/conciertttttttaga.jpg) no-repeat center;
+    background: $gradienteHero, url(../assets/img/conciertttttttaga.jpg) no-repeat center;
     @include heroStyle;
 
     &__boton--img {

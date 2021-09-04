@@ -3,7 +3,7 @@
 
 
 .heroIndex { 
-    background: $gradienteHero, url(/assets/img/17.JPG) no-repeat center;
+    background: $gradienteHero, url(../assets/img/17.JPG) no-repeat center;
     @include heroStyle;
 
     &__boton--img {

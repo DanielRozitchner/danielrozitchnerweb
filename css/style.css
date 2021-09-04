@@ -30,7 +30,7 @@
 }
 
 .heroIndex {
-  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/17.JPG) no-repeat center;
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(../assets/img/17.JPG) no-repeat center;
   height: 100vh;
   background-size: cover;
   position: relative;
@@ -169,7 +169,7 @@
 }
 
 .heroClases {
-  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/conciertitotototo.jpg) no-repeat center;
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(../assets/img/conciertitotototo.jpg) no-repeat center;
   height: 100vh;
   background-size: cover;
   position: relative;
@@ -337,6 +337,7 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
   letter-spacing: 3px;
   color: #b8ebf1;
   font-weight: bold;
+  text-align: center;
 }
 
 .smallTextStyle {
@@ -348,7 +349,7 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
 }
 
 .heroGal {
-  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/conciertttttttaga.jpg) no-repeat center;
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(../assets/img/conciertttttttaga.jpg) no-repeat center;
   height: 100vh;
   background-size: cover;
   position: relative;
@@ -396,7 +397,7 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
 }
 
 .heroMedia {
-  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/conciirireioret.jpg) no-repeat center;
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(../assets/img/conciirireioret.jpg) no-repeat center;
   height: 100vh;
   background-size: cover;
   position: relative;
@@ -464,7 +465,7 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
 }
 
 .heroBio {
-  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(/assets/img/1.JPG) no-repeat center;
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(../assets/img/1.JPG) no-repeat center;
   height: 100vh;
   background-size: cover;
   position: relative;

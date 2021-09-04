@@ -2,7 +2,7 @@
 @import "variables";
 
 .heroBio { 
-    background: $gradienteHero, url(/assets/img/1.JPG) no-repeat center;
+    background: $gradienteHero, url(../assets/img/1.JPG) no-repeat center;
     @include heroStyle;
 
     &__boton--img {
