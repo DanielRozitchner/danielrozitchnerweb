@@ -337,6 +337,7 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
   letter-spacing: 3px;
   color: #b8ebf1;
   font-weight: bold;
+  text-align: center;
 }
 
 .smallTextStyle {

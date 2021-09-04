@@ -152,6 +152,7 @@ input:focus~.barra::before, textarea:focus~.barra::before{
 }
 .subtitleStyle {
 @include myFont2;
+text-align: center;
 }
 
 .smallTextStyle { 
