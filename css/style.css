@@ -465,7 +465,7 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
 }
 
 .heroBio {
-  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(../assets/img/1.JPG) no-repeat center;
+  background: radial-gradient(rgba(119, 119, 119, 0) 0%, black 100%), url(../assets/img/1.jpg) no-repeat center;
   height: 100vh;
   background-size: cover;
   position: relative;
@@ -520,40 +520,6 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
   color: #b8ebf1;
   font-weight: bold;
   text-align: center;
-}
-
-.desafioComp {
-  background-color: purple;
-  border-radius: 10px;
-  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
-  width: 50%;
-}
-
-.desafioElse {
-  background-color: green;
-  border-radius: 20px;
-  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
-  width: 20%;
-}
-
-.forfor-1 {
-  font-size: 2em;
-}
-
-.forfor-2 {
-  font-size: 4em;
-}
-
-.forfor-3 {
-  font-size: 6em;
-}
-
-.forfor-4 {
-  font-size: 8em;
-}
-
-.forfor-1, .forfor-2, .forfor-3, .forfor-4 {
-  color: white;
 }
 
 body {
