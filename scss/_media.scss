@@ -2,7 +2,7 @@
 @import "variables";
 
 .heroMedia { 
-    background: $gradienteHero, url(/assets/img/conciirireioret.jpg) no-repeat center;
+    background: $gradienteHero, url(../assets/img/conciirireioret.jpg) no-repeat center;
     @include heroStyle;
 
     &__boton--img {

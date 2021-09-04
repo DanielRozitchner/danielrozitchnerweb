@@ -2,7 +2,7 @@
 @import "mixins";
 
 .heroClases { 
-    background: $gradienteHero, url(/assets/img/conciertitotototo.jpg) no-repeat center;
+    background: $gradienteHero, url(../assets/img/conciertitotototo.jpg) no-repeat center;
     @include heroStyle;
 
     &__boton--img {
