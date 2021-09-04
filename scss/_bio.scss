@@ -2,7 +2,7 @@
 @import "variables";
 
 .heroBio { 
-    background: $gradienteHero, url(../assets/img/1.JPG) no-repeat center;
+    background: $gradienteHero, url(../assets/img/1.jpg) no-repeat center;
     @include heroStyle;
 
     &__boton--img {
@@ -47,19 +47,3 @@
     }
 
 }
-
-.desafioComp {
-    @include condicional (purple);
-}
-.desafioElse {
-    @include condicional (green);
-}
-
-@for $i from 1 through 4 {
-    .forfor-#{$i} {
-    font-size: 2em * $i;
-    }
-  }
-  .forfor-1, .forfor-2, .forfor-3, .forfor-4 {
-      color:white;
-  }
