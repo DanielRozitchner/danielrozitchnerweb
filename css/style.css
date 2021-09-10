@@ -207,28 +207,16 @@
 
 .mainClases {
   width: 100%;
-  display: flex;
-  flex-direction: row;
   background-color: black;
 }
 
 .guitarraClases {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 50%;
   box-shadow: 0 0 20px 5px var(--whiteBlue) inset, 0px 0px 0px 0px rgba(190, 200, 228, 0.192) inset;
   border-radius: 10px;
   margin: 10px;
 }
 
 .audioClases {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 50%;
   box-shadow: 0 0 20px 5px var(--whiteBlue) inset, 0px 0px 0px 0px rgba(190, 200, 228, 0.192) inset;
   border-radius: 10px;
   margin: 10px;
