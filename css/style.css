@@ -267,22 +267,31 @@
 .formMap {
   padding: 20px;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
   background: linear-gradient(to top, rgba(53, 67, 107, 0.815) 0%, black 100%);
 }
 
-.formCont {
-  background: #d6d2d2;
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+form {
+  background: #ebebeb;
   width: 80%;
   padding: 10px 0;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
 }
 
-.formCont__div {
+.form {
   width: 100%;
 }
 
-.formCont__div--grupo {
+.grupo {
   margin: 20px;
 }
 
