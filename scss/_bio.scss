@@ -41,8 +41,10 @@
     }
     
     &__text--style {
-        @include myFont2;
+        @include myFont3;
         text-align: center;
+        font-size: 1.3rem;
+        padding: 10px;
 
     }
 

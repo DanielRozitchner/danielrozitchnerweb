@@ -545,9 +545,11 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
 .mainBio__text--style {
   font-family: "Teko", sans-serif;
   letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
+  color: #e3e9ec;
+  font-weight: normal;
   text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
 }
 
 body {
