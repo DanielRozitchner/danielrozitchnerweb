@@ -210,20 +210,56 @@
   background-color: black;
 }
 
-.guitarraClases {
-  box-shadow: 0 0 20px 5px var(--whiteBlue) inset, 0px 0px 0px 0px rgba(190, 200, 228, 0.192) inset;
+.mainClases__guitarra {
   border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
   margin: 10px;
 }
 
-.audioClases {
-  box-shadow: 0 0 20px 5px var(--whiteBlue) inset, 0px 0px 0px 0px rgba(190, 200, 228, 0.192) inset;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.fotosClases {
+.mainClases__guitarra--foto {
   width: 45%;
+}
+
+.mainClases__guitarra--subtitle {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainClases__guitarra--text {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainClases__audio {
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  margin: 10px;
+}
+
+.mainClases__audio--subtitle {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainClases__audio--foto {
+  width: 45%;
+}
+
+.mainClases__audio--text {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 3px;
+  color: #b8ebf1;
+  font-weight: bold;
+  text-align: center;
 }
 
 .formMap {
@@ -318,22 +354,6 @@ input:focus ~ .barra::before, textarea:focus ~ .barra::before {
   width: 70%;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
-}
-
-.subtitleStyle {
-  font-family: "Teko", sans-serif;
-  letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
-  text-align: center;
-}
-
-.smallTextStyle {
-  font-family: "Teko", sans-serif;
-  letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
-  text-align: center;
 }
 
 .heroGal {

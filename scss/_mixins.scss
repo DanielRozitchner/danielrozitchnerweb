@@ -33,6 +33,11 @@
  z-index: 0;
 }
 
+@mixin boxShadow {
+  border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
 @mixin condicional ($box) {
   background-color: ($box);
 
