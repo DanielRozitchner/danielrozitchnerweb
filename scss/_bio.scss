@@ -25,7 +25,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         @include myFont2;
-        color:rgb(235, 235, 235);
+        color: $tercerColor;
         font-size: 6rem;
         }
     }
