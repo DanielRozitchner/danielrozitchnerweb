@@ -232,8 +232,8 @@
 .mainClases__guitarra--text {
   font-family: "Teko", sans-serif;
   letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
+  color: #e3e9ec;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -259,8 +259,8 @@
 .mainClases__audio--text {
   font-family: "Teko", sans-serif;
   letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
+  color: #e3e9ec;
+  font-weight: normal;
   text-align: center;
 }
 
