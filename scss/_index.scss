@@ -34,7 +34,7 @@
     
     }
     &__table--style {
-        @include myFont2;
+        @include myFont3;
         font-size: 1.2rem;
         font-weight: 400;
     }
@@ -49,12 +49,12 @@
     }
 
     &__title2--style {
-        @include myFont2;
+        @include myFont3;
         font-size: 1.2rem;
     }
     
     &__text--style {
-        @include myFont2;
+        @include myFont3;
         font-size: 1rem;
         font-weight: 400;
     }

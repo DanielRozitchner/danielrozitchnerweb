@@ -72,8 +72,8 @@
 .fechasContainer__table--style {
   font-family: "Teko", sans-serif;
   letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
+  color: #e3e9ec;
+  font-weight: normal;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -94,16 +94,16 @@
 .prensaContainer__title2--style {
   font-family: "Teko", sans-serif;
   letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
+  color: #e3e9ec;
+  font-weight: normal;
   font-size: 1.2rem;
 }
 
 .prensaContainer__text--style {
   font-family: "Teko", sans-serif;
   letter-spacing: 3px;
-  color: #b8ebf1;
-  font-weight: bold;
+  color: #e3e9ec;
+  font-weight: normal;
   font-size: 1rem;
   font-weight: 400;
 }
