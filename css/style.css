@@ -132,6 +132,29 @@
   color: #b8ebf1;
 }
 
+@media only screen and (min-width: 1024px) {
+  .navbar__logo--estilo {
+    position: relative;
+    overflow: hidden;
+  }
+  .navbar__logo--estilo:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 2px;
+    right: 100%;
+    bottom: -2px;
+    background: linear-gradient(to right, #9ea0ac, #0077ff);
+    height: 6px;
+    transition-property: right;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+  }
+  .navbar__logo--estilo:hover:before {
+    right: 0;
+  }
+}
+
 .barranavLinks__link--estilo {
   color: #9ec0ff !important;
   font-size: 1.5rem;
